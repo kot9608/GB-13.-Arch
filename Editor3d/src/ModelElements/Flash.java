@@ -1,19 +1,18 @@
 package ModelElements;
 
-import java.awt.*;
+import Stuff.Angle3D;
+import Stuff.Point3D;
+
+import java.awt.Color;
 
 public class Flash {
-    public Point3d location;
-    public Angle3d angle;
-    public Color color;
-    public Float power;
+    public Point3D location;
+    public Angle3D angle;
+    public java.awt.Color color;
+    public float power;
 
-    public void rotate(Angle3d){
+    public void rotate(Angle3D angleAction){}
 
-    }
-
-    public void move (Point3d) {
-
-    }
+    public void move (Point3D pointAction) {}
 
 }

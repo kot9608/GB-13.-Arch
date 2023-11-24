@@ -1,9 +1,6 @@
 package InMemoryModel;
 
-import ModelElements.Camera;
-import ModelElements.Flash;
-import ModelElements.PoligonalModel;
-import ModelElements.Scene;
+import ModelElements.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +19,14 @@ public class ModelStore implements ImodelChanger {
         this.scenes = new ArrayList<>();
         this.flashes = new ArrayList<>();
         this.cameras = new ArrayList<>();
+
+        List<Texture> textures = new ArrayList<>();
+        this.models.add(new PoligonalModel(textures));
+
+        this.flashes.add(new Flash());
+        this.cameras.add(new Camera());
+
+        this.scenes.add(new Scene(0, models, flashes, cameras));
     }
 
     public Scene getScane(int id)

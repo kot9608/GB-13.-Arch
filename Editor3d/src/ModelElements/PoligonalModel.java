@@ -1,7 +1,15 @@
 package ModelElements;
 
-public class PoligonalModel {
-    public Poligon poligons;
-    public Texture textures;
+import java.util.ArrayList;
+import java.util.List;
 
+public class PoligonalModel {
+    public List<Poligon> poligons;
+    public List<Texture> textures;
+
+    public PoligonalModel(List<Texture> textures) {
+        this.textures = textures;
+        this.poligons = new ArrayList<>();
+        this.poligons.add(new Poligon());
+    }
 }

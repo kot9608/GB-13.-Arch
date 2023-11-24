@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/13. Arch.iml" filepath="$PROJECT_DIR$/.idea/13. Arch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarApp/CarApp.iml" filepath="$PROJECT_DIR$/CarApp/CarApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Editor3d/Editor3d.iml" filepath="$PROJECT_DIR$/Editor3d/Editor3d.iml" />
+    </modules>
+  </component>
+</project>
